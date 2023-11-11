@@ -1,0 +1,76 @@
+@media screen and (max-width: 1201px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 701px) {
+    h1{
+        font-size: 36px;
+    }
+    .jb{
+        height: 520px;
+    }
+    .about .row-center{
+        flex-direction: column;
+    }
+    .director-name{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .row-start{
+        flex-direction: column;
+    }
+    .footer .footer__column {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .header .logo {
+        width: 60px;
+    }
+    .main>section{
+        margin-bottom: 50px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .jb{
+        height: 390px;
+    }
+    .jb .jb__tel{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .about .about__dcp p{
+        font-size: 14px;
+    }
+    .form{
+        width: 80%;
+    }
+    .form .row-center{
+        width: 100%;
+        gap: 30px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .avatar{
+        width: 150px;
+        height: 150px;
+    }
+    .director-name{
+        text-align: center;
+    }
+}

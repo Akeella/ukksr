@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: inherit;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+a {
+   text-decoration: none;
+}
+
+button,
+input,
+textarea {
+   border: none;
+   outline: none;
+   background: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 45px 0 30px 0;
+   z-index: 1;
+}
+
+.header .logo {
+   width: 100px;
+}
+
+.container {
+   max-width: 1260px;
+   margin: 0 auto;
+   z-index: 1;
+   padding: 0 30px;
+}
+
+.header .header__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header .header__link {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   text-transform: uppercase;
+   padding-bottom: 5px;
+   color: white;
+   border-bottom: 1px solid transparent;
+   transition: 0.3s;
+}
+
+.header .header__link:hover {
+   border-bottom: 1px solid currentColor;
+}
+
+.main > section {
+   margin-bottom: 150px;
+}
+
+.jb {
+   background: #3a3a3a;
+   height: 650px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   padding-top: 60px;
+}
+
+.jb .jb__bg {
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   filter: blur(3px);
+   z-index: 0;
+}
+
+h1 {
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 130%;
+   text-transform: uppercase;
+   color: white;
+   margin-bottom: 40px;
+}
+
+.jb .jb__tel {
+   color: white;
+   font-size: 26px;
+   display: inline-block;
+}
+
+h2 {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 130%;
+   max-width: 800px;
+   margin-bottom: 20px;
+}
+
+.blue {
+   color: #8cdae5;
+}
+
+.row-center {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.row-start {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.jcsb {
+   justify-content: space-between;
+}
+
+.jcfs {
+   justify-content: flex-start;
+}
+
+.director-name {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 130%;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+.avatar {
+   width: 256px;
+   height: 256px;
+   border-radius: 1000px;
+}
+
+.about .about__dcp {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.about .about__dcp p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   max-width: 800px;
+}
+
+.signature {
+   height: 80px;
+}
+
+.form-section {
+   padding: 100px 0;
+   color: white;
+   background-size: cover;
+   margin-bottom: 0 !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url(../img/handshake.png);
+}
+
+.form-section .form-section__text {
+   max-width: 600px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   align-items: center;
+}
+
+.form input,
+.form textarea {
+   border-bottom: 1px solid currentColor;
+   color: white;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   padding: 10px 0;
+   flex-grow: 1;
+   width: 100%;
+   transition: 0.3s;
+}
+
+.form input:focus,
+.form textarea:focus {
+   color: #8cdae5;
+}
+
+.tac {
+   text-align: center;
+}
+
+.form textarea {
+   resize: none;
+   height: 100px;
+}
+
+.form button {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   padding-bottom: 5px;
+   border-bottom: 3px solid currentColor;
+   text-transform: uppercase;
+   color: #8cdae5;
+}
+
+.column-center {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+}
+
+.footer {
+   background: #1e2c39;
+   padding: 100px 0;
+}
+
+.footer .footer__column {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   align-items: flex-start;
+   max-width: 400px;
+}
+
+.footer .footer__block {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+}
+
+.footer .footer__title {
+   font-weight: bold;
+   font-size: 16px;
+   color: #8cdae5;
+}
+
+.footer .footer__text {
+   color: white;
+   font-size: 14px;
+   line-height: 150%;
+}
+
+.white {
+   color: white;
+}
+
+.politica {
+   color: #8cdae5;
+}
+
+.form .row-center {
+    width:100%;
+}
